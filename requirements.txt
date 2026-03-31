@@ -4,3 +4,7 @@ streamlit
 sklearn
 xgboost
 imblearn
+mlflow
+dagshub
+matplotlib
+seaborn
