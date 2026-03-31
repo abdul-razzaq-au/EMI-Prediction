@@ -1,3 +1,12 @@
+import sys
+try:
+    import imghdr
+except ModuleNotFoundError:
+    # create a dummy module so libraries that import it don't fail
+    import types
+    imghdr = types.ModuleType("imghdr")
+    sys.modules["imghdr"] = imghdr
+
 import streamlit as st
 import mlflow
 import pandas as pd
