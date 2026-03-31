@@ -8,3 +8,4 @@ mlflow
 dagshub
 matplotlib
 seaborn
+altair==4.2.2
